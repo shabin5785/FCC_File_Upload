@@ -3,7 +3,7 @@ const path = require('path');
 const multer = require('multer');
 
 
-let upload = multer({ dest : '/uploads'});
+let upload = multer({ dest : '/'});
 
 let app  = express();
 
